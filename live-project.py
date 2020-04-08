@@ -12,3 +12,7 @@ def delete(arr,c):
         return '还未添加此记录'
     else:
         return arr
+def display(s):
+    #排序函数
+    for i in range(len(s)):
+        print(s[i])
